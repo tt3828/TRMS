@@ -40,7 +40,8 @@ public class HomeServlet extends HttpServlet{
 			pw.write("<h1>Welcome</h1>\n");
 			pw.write("<a href='NewForm'>Start A New Reimbursment Form</a>\n"
 					+ "<a href='FormList'>View Status of Pending Reimbursment Forms</a>\n");
-			pw.write("<a href='logout'>Logout</a>");
+			pw.write(""
+					+ "");
 		}
 		}
 	}

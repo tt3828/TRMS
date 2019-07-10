@@ -1,3 +1,4 @@
+select * from request;
 create table Employee
 (
 	employee_id serial not null,
