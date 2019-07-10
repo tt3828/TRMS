@@ -36,7 +36,7 @@ public class LoginServlet extends HttpServlet{
 		switch (user.getRole_id()) {
 		case 1:
 			LoggingUtil.trace("Successful Employee Login");
-			resp.sendRedirect("home");
+			resp.sendRedirect(req.getContextPath()+"home.html");
 			break;
 		case 2:
 			LoggingUtil.trace("Successful DS Login");
